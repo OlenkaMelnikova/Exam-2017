@@ -1,4 +1,4 @@
-// 1.cpp: îïðåäåëÿåò òî÷êó âõîäà äëÿ êîíñîëüíîãî ïðèëîæåíèÿ.
+// 1.cpp: Ã®Ã¯Ã°Ã¥Ã¤Ã¥Ã«Ã¿Ã¥Ã² Ã²Ã®Ã·ÃªÃ³ Ã¢ÃµÃ®Ã¤Ã  Ã¤Ã«Ã¿ ÃªÃ®Ã­Ã±Ã®Ã«Ã¼Ã­Ã®Ã£Ã® Ã¯Ã°Ã¨Ã«Ã®Ã¦Ã¥Ã­Ã¨Ã¿.
 //
 
 #include "stdafx.h"
@@ -45,7 +45,7 @@ int main()
 	double curr;
 	cin >> curr;
 	temp.get_Corner(curr);
-	cout << " Êîñèíóñ " << temp.getCorner() << " ãðàäóñîâ = " << temp.remake(curr) << endl;
+	cout << " ÃŠÃ®Ã±Ã¨Ã­Ã³Ã± " << temp.getCorner() << " Ã£Ã°Ã Ã¤Ã³Ã±Ã®Ã¢ = " << temp.remake(curr) << endl;
 	system("pause");
 	return 0;
 }
