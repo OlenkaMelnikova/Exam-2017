@@ -1,4 +1,4 @@
-// 1.cpp: îïğåäåëÿåò òî÷êó âõîäà äëÿ êîíñîëüíîãî ïğèëîæåíèÿ.
+// 1.cpp: Ã®ÄÄ‘ÄºÃ¤ÄºÃ«Ë™ÄºÅˆ ÅˆÃ®Ã·Ä™Ã³ Ã¢Å‘Ã®Ã¤Å• Ã¤Ã«Ë™ Ä™Ã®Ã­Å„Ã®Ã«Ã¼Ã­Ã®ÄƒÃ® ÄÄ‘ÄÃ«Ã®Ä‡ÄºÃ­ÄË™.
 //
 
 #include "stdafx.h"
@@ -44,7 +44,7 @@ int main()
 	double side;
 	cin >> side;
 	temp.get_side(side);
-	cout << " Ïëîùàäü êâàäğàòà ñî ñòğîíîé " << temp.getSide() << " ğàâíà = " << temp.get_Area(side) << endl;
+	cout << " ÄÃ«Ã®Å¯Å•Ã¤Ã¼ Ä™Ã¢Å•Ã¤Ä‘Å•ÅˆÅ• Å„Ã® Å„ÅˆÄ‘Ã®Ã­Ã®Ã© " << temp.getSide() << " Ä‘Å•Ã¢Ã­Å• = " << temp.get_Area(side) << endl;
 	system("pause");
 	return 0;
 }
