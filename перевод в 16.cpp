@@ -1,4 +1,4 @@
-// 1.cpp: îïğåäåëÿåò òî÷êó âõîäà äëÿ êîíñîëüíîãî ïğèëîæåíèÿ.
+// 1.cpp: Ã®Ã¯Ã°Ã¥Ã¤Ã¥Ã«Ã¿Ã¥Ã² Ã²Ã®Ã·ÃªÃ³ Ã¢ÃµÃ®Ã¤Ã  Ã¤Ã«Ã¿ ÃªÃ®Ã­Ã±Ã®Ã«Ã¼Ã­Ã®Ã£Ã® Ã¯Ã°Ã¨Ã«Ã®Ã¦Ã¥Ã­Ã¨Ã¿.
 //
 
 #include "stdafx.h"
@@ -54,7 +54,7 @@ int main()
 	setlocale(LC_ALL, "rus");
 	cin >> number;
 	temp.get_number(number);
-	cout << "×èñëî " << temp.getNumber() << " â øåñòíàäöàòèğè÷íîé ñèñòåìå ñ÷èñëåíèÿ : " << temp.inttohex(number) << endl;
+	cout << "Ã—Ã¨Ã±Ã«Ã® " << temp.getNumber() << " Ã¢ Ã¸Ã¥Ã±Ã²Ã­Ã Ã¤Ã¶Ã Ã²Ã¨Ã°Ã¨Ã·Ã­Ã®Ã© Ã±Ã¨Ã±Ã²Ã¥Ã¬Ã¥ Ã±Ã·Ã¨Ã±Ã«Ã¥Ã­Ã¨Ã¿ : " << temp.inttohex(number) << endl;
 	system("pause");
 	return 0;
 }
